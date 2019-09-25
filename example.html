@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Component</title>
+
+    <link rel="stylesheet" href="as-tabs-es6.css">
+    <script src="node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce.js"></script>
+    <script src="node_modules/@webcomponents/shadycss/apply-shim.min.js"></script>
+</head>
+<body>
+
+    <as-tabs>
+        <as-tab role="heading" slot="tab">Tab 1</as-tab>
+        <as-tab-panel role="region" slot="panel">Item One</as-tab-panel>
+        <as-tab role="heading" slot="tab">Tab 2</as-tab>
+        <as-tab-panel role="region" slot="panel">Item Two</as-tab-panel>
+        <as-tab role="heading" slot="tab">Tab 3</as-tab>
+        <as-tab-panel role="region" slot="panel">Item Three</as-tab-panel>
+    </as-tabs>
+    
+    <script src="as-tabs-es6.js"></script>
+</body>
+</html>
